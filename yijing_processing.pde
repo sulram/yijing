@@ -12,13 +12,20 @@ float slice2 = 0;
 slider s[];
 
 void setup() {
+
   size(640, 480);
+  
   noStroke();
   smooth();
+  
   yi = loadImage("i.jpg", "jpg");
+  
   p = new particle[num];
+  
   for (int i=0; i<num; i++) {
+  
     p[i] = new particle();
+    
   }
   
   s = new slider[9];
@@ -34,11 +41,13 @@ void setup() {
   s[6] = new slider(10, 270, 150, 10, "Particle Count", .1);
   s[7] = new slider(10, 310, 150, 10, "Slice", .1);
   s[8] = new slider(10, 350, 150, 10, "Zoom", .5);
+  
 }
 
 void draw() {
 
   //image(yi, 0, 0);
+  
   fill(0, 0, 0, 50);
   rect(0, 0, width, height);
 
@@ -73,20 +82,22 @@ void draw() {
   }
   
   if(mousePressed){
-   println(slice); 
+    println(slice); 
   }
+  
+  //shows UI controls when pressed
   
   if(keyPressed && keyCode == DOWN){
   
-  s[0].check(50*s[0].val);
-  s[1].check(50*s[1].val);
-  s[2].check(1*s[2].val);
-  s[3].check(5*s[3].val);
-  s[4].check(5*s[4].val);
-  s[5].check(1*s[5].val);
-  s[6].check(num*s[6].val);
-  s[7].check(s[7].val*20000);
-  s[8].check(s[8].val*10);
+    s[0].check(50*s[0].val);
+    s[1].check(50*s[1].val);
+    s[2].check(1*s[2].val);
+    s[3].check(5*s[3].val);
+    s[4].check(5*s[4].val);
+    s[5].check(1*s[5].val);
+    s[6].check(num*s[6].val);
+    s[7].check(s[7].val*20000);
+    s[8].check(s[8].val*10);
   
   }
 }
