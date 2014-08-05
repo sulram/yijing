@@ -1,4 +1,4 @@
-yijing_processing
+Yi Jing - Processing
 =================
 
 *A pratical experiment with particles for my graduation project inspired by I Ching*
@@ -6,15 +6,6 @@ yijing_processing
 Este experimento em Processing compõe a parte prática do meu projeto de conclusão de curso em Desenho Industrial na Escola de Belas Artes da UFRJ, pesquisa inspirada no I Ching (Yi Jing).
 
 ![yijing 01](https://raw.github.com/sulram/yijing_processing/master/data/screenshot-01.png)
-
-## Usage
-
-### Commands
-
-- DOWN ARROW: shows UI controls when pressed
-
-## About Yi Jing project
-
 
 ### RESUMO
 
@@ -29,4 +20,3 @@ The project presents an investigation on Yi Jing, The Book of Changes, in the fi
     Keywords: Yi Jing, metaphor, symbolism, installation, interactivity, natural interfaces.
 
 &nbsp;
-
